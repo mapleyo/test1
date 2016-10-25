@@ -96,7 +96,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1482" y="-220"/>
+            <point key="canvasLocation" x="1480.8" y="-220.83958020989508"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="SZw-km-9Kz">
@@ -193,6 +193,7 @@
                 <tabBarController storyboardIdentifier="apple" automaticallyAdjustsScrollViewInsets="NO" id="WuY-6P-eKe" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="qy4-5h-j8B">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
@@ -209,7 +210,6 @@
         <!--View Controller-->
         <scene sceneID="8Mt-su-A5T">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="t4O-AL-l7z" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="dZU-dp-Zln" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XXj-2N-Hut"/>
@@ -236,6 +236,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="topRated" id="4GV-GT-RsI"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t4O-AL-l7z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1257" y="519"/>
         </scene>
@@ -261,6 +262,13 @@
                                 </state>
                                 <state key="highlighted" image="Image"/>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="yeeee" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nxc-Ne-lN7">
+                                <frame key="frameInset" minX="119" minY="284" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
